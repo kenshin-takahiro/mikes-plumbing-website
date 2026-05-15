@@ -102,6 +102,41 @@ img {
     display: block;
 }
 
+/* Logo image in header */
+.logo-img {
+    height: 48px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+}
+
+/* Footer logo image */
+.footer-logo-img {
+    height: 48px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    filter: brightness(0) invert(1); /* Makes logo white for dark footer */
+}
+
+/* Hero image */
+.hero-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+}
+
+/* About image */
+.about-img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
 a {
     color: var(--color-primary);
     text-decoration: none;
